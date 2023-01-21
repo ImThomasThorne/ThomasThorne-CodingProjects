@@ -1,0 +1,64 @@
+:root {
+    --primary-color:#7413dc;
+    --seconday-color:#00a794;
+    --tertiary:#ffb4e5;
+    --black:#262626;
+    --white:#fff;
+}
+
+body {
+    background-image: url(../img/bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--black);
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 5em;
+    line-height: 0em;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--white);
+    text-align: center;
+}
+
+h6 {
+    font-size: 2em;
+    line-height: 1em;
+    font-weight: 300;
+    color: var(--white);
+    text-align: center;
+    margin: 0;
+}
+
+.card-container {
+    width: 75%;
+    max-height: 100%;
+}
+
+.card-container img {
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.qr-code {
+    height: 50%;
+}
+
+.line-break {
+    background-color: var(--white);
+    height: 10px;
+    width: 100%;
+    margin: 2vh 0;
+    border-radius: 100px;
+}

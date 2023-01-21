@@ -1,0 +1,17 @@
+:root {
+    --primary-color:#00B3E0;
+    --seconday-color:#7E36C2;
+    --tertiary:#FFBC0A;
+    --quaternary:#CA3C25;
+    --black:#262626;
+    --white:#fff;
+}
+
+body {
+    height: 100vh;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
